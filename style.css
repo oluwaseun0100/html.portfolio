@@ -1,0 +1,42 @@
+.profile{
+    border-radius: 50%;
+}
+#about{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%
+}
+.lines{
+    width: 30%;
+    margin: auto;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.foot{
+    text-align: center;
+}
+.top{
+    background: linear-gradient(300deg, #cafaf2, #e7cbf7, #f5dbab);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;   
+  }
